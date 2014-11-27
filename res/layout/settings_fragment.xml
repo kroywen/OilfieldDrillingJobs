@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#f0eff5">
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        android:layout_marginTop="30dp">
+    
+	    <View
+			android:layout_width="match_parent"
+			android:layout_height="1px"
+			android:background="#cccccc" />
+	    
+	    <TextView
+	       	android:id="@+id/registeredEmailBtn"
+	       	android:layout_width="match_parent"
+	       	android:layout_height="wrap_content"
+	       	android:padding="15dp"
+	       	android:textColor="@android:color/black"
+	       	android:textSize="18sp"
+	       	android:text="@string/registered_email" 
+	       	android:drawableRight="@drawable/arrow_right"
+	       	android:drawablePadding="15dp"
+	       	android:gravity="left|center_vertical"
+	       	android:clickable="true"
+	       	android:background="?android:attr/selectableItemBackground" />
+	    
+	    <View
+			android:layout_width="match_parent"
+			android:layout_height="1px"
+			android:layout_marginLeft="15dp"
+			android:background="#cccccc" />
+	    
+	    <TextView
+	       	android:id="@+id/jobListHistoryBtn"
+	       	android:layout_width="match_parent"
+	       	android:layout_height="wrap_content"
+	       	android:padding="15dp"
+	       	android:textColor="@android:color/black"
+	       	android:textSize="18sp"
+	       	android:text="@string/job_list_history"
+	       	android:drawableRight="@drawable/arrow_right"
+	       	android:drawablePadding="15dp"
+	       	android:gravity="left|center_vertical"
+	       	android:clickable="true"
+	       	android:background="?android:attr/selectableItemBackground" />
+	    
+	    <View
+			android:layout_width="match_parent"
+			android:layout_height="1px"
+			android:layout_marginLeft="15dp"
+			android:background="#cccccc" />
+	    
+	    <TextView
+	       	android:id="@+id/supportAndFeedbackBtn"
+	       	android:layout_width="match_parent"
+	       	android:layout_height="wrap_content"
+	       	android:padding="15dp"
+	       	android:textColor="@android:color/black"
+	       	android:textSize="18sp"
+	       	android:text="@string/support_and_feedback"
+	       	android:drawableRight="@drawable/arrow_right"
+	       	android:drawablePadding="15dp"
+	       	android:gravity="left|center_vertical"
+	       	android:clickable="true"
+	       	android:background="?android:attr/selectableItemBackground" />
+	    
+	    <View
+			android:layout_width="match_parent"
+			android:layout_height="1px"
+			android:background="#cccccc" />
+    
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        android:layout_marginTop="30dp">
+    
+	    <View
+			android:layout_width="match_parent"
+			android:layout_height="1px"
+			android:background="#cccccc" />
+	    
+	    <TextView
+	       	android:id="@+id/rateAppBtn"
+	       	android:layout_width="match_parent"
+	       	android:layout_height="wrap_content"
+	       	android:padding="15dp"
+	       	android:textColor="@android:color/black"
+	       	android:textSize="18sp"
+	       	android:text="@string/rate_our_app"
+	       	android:drawableRight="@drawable/arrow_right"
+	       	android:drawablePadding="15dp"
+	       	android:gravity="left|center_vertical"
+	       	android:clickable="true"
+	       	android:background="?android:attr/selectableItemBackground" />
+	    
+	    <View
+			android:layout_width="match_parent"
+			android:layout_height="1px"
+			android:layout_marginLeft="15dp"
+			android:background="#cccccc" />
+	    
+	    <TextView
+	       	android:id="@+id/shareAppBtn"
+	       	android:layout_width="match_parent"
+	       	android:layout_height="wrap_content"
+	       	android:padding="15dp"
+	       	android:textColor="@android:color/black"
+	       	android:textSize="18sp"
+	       	android:text="@string/share_with_friends"
+	       	android:drawableRight="@drawable/arrow_right"
+	       	android:drawablePadding="15dp"
+	       	android:gravity="left|center_vertical"
+	       	android:clickable="true"
+	       	android:background="?android:attr/selectableItemBackground" />
+	    
+	    <View
+			android:layout_width="match_parent"
+			android:layout_height="1px"
+			android:layout_marginLeft="15dp"
+			android:background="#cccccc" />
+	    
+	    <TextView
+	       	android:id="@+id/aboutBtn"
+	       	android:layout_width="match_parent"
+	       	android:layout_height="wrap_content"
+	       	android:padding="15dp"
+	       	android:textColor="@android:color/black"
+	       	android:textSize="18sp"
+	       	android:text="@string/about"
+	       	android:drawableRight="@drawable/arrow_right"
+	       	android:drawablePadding="15dp"
+	       	android:gravity="left|center_vertical"
+	       	android:clickable="true"
+	       	android:background="?android:attr/selectableItemBackground" />
+	    
+	    <View
+			android:layout_width="match_parent"
+			android:layout_height="1px"
+			android:layout_marginLeft="15dp"
+			android:background="#cccccc" />
+	    
+	    <TextView
+	       	android:id="@+id/otherAppsBtn"
+	       	android:layout_width="match_parent"
+	       	android:layout_height="wrap_content"
+	       	android:padding="15dp"
+	       	android:textColor="@android:color/black"
+	       	android:textSize="18sp"
+	       	android:text="@string/other_apps"
+	       	android:drawableRight="@drawable/arrow_right"
+	       	android:drawablePadding="15dp"
+	       	android:gravity="left|center_vertical"
+	       	android:clickable="true"
+	       	android:background="?android:attr/selectableItemBackground" />
+	    
+	    <View
+			android:layout_width="match_parent"
+			android:layout_height="1px"
+			android:background="#cccccc" />
+    
+    </LinearLayout>
+
+</LinearLayout>

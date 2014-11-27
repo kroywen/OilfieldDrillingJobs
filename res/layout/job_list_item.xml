@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="?android:attr/activatedBackgroundIndicator">
+    
+    <ImageView
+        android:id="@+id/jobUnreadMarker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/unread_job_marker" />
+    
+    <TextView
+        android:id="@+id/jobTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/jobUnreadMarker"
+        android:layout_toLeftOf="@+id/arrowRight"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#139df6"
+        android:textSize="16sp"
+        android:maxLines="1"
+        android:ellipsize="end" />
+    
+    <TextView
+        android:id="@+id/jobLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jobTitle"
+        android:layout_alignStart="@id/jobTitle"
+        android:layout_alignEnd="@id/jobTitle"
+        android:textColor="#919191"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:maxLines="1"
+        android:ellipsize="end" />
+    
+    <TextView
+        android:id="@+id/jobDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jobLocation"
+        android:layout_alignStart="@id/jobLocation"
+        android:layout_alignEnd="@id/jobTitle"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:maxLines="2"
+        android:ellipsize="end" />
+    
+    <ImageView
+        android:id="@+id/arrowRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/arrow_right" />
+
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background">
+    
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentTop="true"
+	    android:orientation="vertical">
+	    
+	    <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="15dp"
+	        android:textColor="#139df6" 
+	        android:textSize="16sp"
+	        android:textStyle="bold"
+	        android:text="@string/please_enter_email_to_register" />
+	
+	    <EditText
+	        android:id="@+id/email"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/edittext_background_grey"
+	        android:textColorHint="#c1c1c7"
+	        android:textColor="#139df6"
+	        android:textSize="16sp"
+	        android:inputType="textEmailAddress"
+	        android:hint="@string/please_enter_email_here" />
+	    
+	    <Button 
+	        android:id="@+id/registerBtn"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="15dp"
+	        android:gravity="center"
+	        android:textColor="@android:color/white"
+	        android:background="@drawable/btn_background"
+	        android:textSize="16sp"
+	        android:textStyle="bold"
+	        android:text="@string/register_now" />
+	    
+	    <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="15dp"
+	        android:layout_marginRight="15dp"
+	        android:textColor="#c7c6cb"
+	        android:textSize="16sp"
+	        android:text="@string/register_text" />
+	
+	</LinearLayout>
+	
+	<TextView
+	    android:id="@+id/cancelBtn"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:padding="15dp"
+	    android:layout_alignParentRight="true"
+	    android:layout_alignParentBottom="true"
+	    android:textColor="#139df6"
+	    android:textSize="20sp"
+	    android:textStyle="bold"
+	    android:text="@string/skip" />
+	
+</RelativeLayout>

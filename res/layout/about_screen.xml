@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/main_background">
+    
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logo" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="22sp"
+        android:textColor="#a4a4a4"
+        android:textStyle="bold"
+        android:text="@string/oilfield_drilling_jobs" />
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp"
+        android:background="@android:color/white">
+        
+        <View
+			android:layout_width="match_parent"
+			android:layout_height="1px"
+			android:background="#cccccc" />
+	    
+	    <TextView
+	       	android:id="@+id/aboutAppBtn"
+	       	android:layout_width="match_parent"
+	       	android:layout_height="wrap_content"
+	       	android:padding="15dp"
+	       	android:textColor="@android:color/black"
+	       	android:textSize="18sp"
+	       	android:text="@string/about_the_app" 
+	       	android:drawableRight="@drawable/arrow_right"
+	       	android:drawablePadding="15dp"
+	       	android:gravity="left|center_vertical"
+	       	android:clickable="true"
+	       	android:background="?android:attr/selectableItemBackground" />
+	    
+	    <View
+			android:layout_width="match_parent"
+			android:layout_height="1px"
+			android:layout_marginLeft="15dp"
+			android:background="#cccccc" />
+	    
+	    <TextView
+	       	android:id="@+id/termsBtn"
+	       	android:layout_width="match_parent"
+	       	android:layout_height="wrap_content"
+	       	android:padding="15dp"
+	       	android:textColor="@android:color/black"
+	       	android:textSize="18sp"
+	       	android:text="@string/terms_of_use"
+	       	android:drawableRight="@drawable/arrow_right"
+	       	android:drawablePadding="15dp"
+	       	android:gravity="left|center_vertical"
+	       	android:clickable="true"
+	       	android:background="?android:attr/selectableItemBackground" />
+	    
+	    <View
+			android:layout_width="match_parent"
+			android:layout_height="1px"
+			android:background="#cccccc" />
+        
+    </LinearLayout>
+
+</LinearLayout>

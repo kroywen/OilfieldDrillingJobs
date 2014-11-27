@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/main_background">
+    
+	<LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/white">
+        
+        <View
+			android:layout_width="match_parent"
+			android:layout_height="1px"
+			android:background="#cccccc" />
+	    
+	    <TextView
+	       	android:id="@+id/app1Btn"
+	       	android:layout_width="match_parent"
+	       	android:layout_height="wrap_content"
+	       	android:padding="15dp"
+	       	android:textColor="@android:color/black"
+	       	android:textSize="18sp"
+	       	android:text="@string/app_1_title" 
+	       	android:tag="@string/app_1_link"
+	       	android:drawableLeft="@drawable/icon_app_1"
+	       	android:drawablePadding="15dp"
+	       	android:gravity="left|center_vertical"
+	       	android:clickable="true"
+	       	android:background="?android:attr/selectableItemBackground" />
+	    
+	    <View
+			android:layout_width="match_parent"
+			android:layout_height="1px"
+			android:layout_marginLeft="15dp"
+			android:background="#cccccc" />
+	    
+	    <TextView
+	       	android:id="@+id/app2Btn"
+	       	android:layout_width="match_parent"
+	       	android:layout_height="wrap_content"
+	       	android:padding="15dp"
+	       	android:textColor="@android:color/black"
+	       	android:textSize="18sp"
+	       	android:text="@string/app_2_title"
+	       	android:tag="@string/app_2_link"
+	       	android:drawableLeft="@drawable/icon_app_2"
+	       	android:drawablePadding="15dp"
+	       	android:gravity="left|center_vertical"
+	       	android:clickable="true"
+	       	android:background="?android:attr/selectableItemBackground" />
+	    
+	    <View
+			android:layout_width="match_parent"
+			android:layout_height="1px"
+			android:background="#cccccc" />
+        
+    </LinearLayout>
+    
+</LinearLayout>

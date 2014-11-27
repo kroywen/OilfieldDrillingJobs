@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+       	
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    
+		    <TextView
+		        android:id="@+id/jobTitle"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="15dp"
+		        android:layout_marginRight="15dp"
+		        android:layout_marginTop="15dp"
+		        android:textColor="#4792c2"
+	    		android:textStyle="bold"
+	    		android:textSize="18sp"
+	    		android:text="Barge Engineer" />
+		    
+		    <TextView
+		        android:id="@+id/jobLocation"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="15dp"
+		        android:layout_marginRight="15dp"
+		        android:layout_marginTop="5dp"
+		        android:textColor="@android:color/black"
+	    		android:textSize="16sp"
+	    		android:text="Location Confidential" />
+		    
+		    <TextView
+		        android:id="@+id/jobUpdatedAt"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="15dp"
+		        android:layout_marginRight="15dp"
+		        android:layout_marginTop="10dp"
+		        android:textColor="#ababab"
+	    		android:textSize="16sp"
+	    		android:text="22-Sep-2014" />
+		    
+		    <TextView
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="10dp"
+		        android:textColor="@android:color/black"
+		        android:textSize="16sp"
+		        android:paddingTop="10dp"
+		        android:paddingBottom="10dp"
+		        android:paddingLeft="15dp"
+		        android:background="#e6e6e6"
+		        android:text="@string/job_description" />
+		    
+		    <TextView
+		        android:id="@+id/jobDescription"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:textColor="@android:color/black"
+		        android:textSize="16sp"
+		        android:layout_margin="15dp"
+		        android:text=" sdfsd fsdgfjhsgadfhsfsdfsd sdf gsdf gsdf gdsf gsdf gafpasdjfjsdalkfjasdakss i fasdi dfigy idfyg dsfy gdsf yisdfuy isdf gisdfugy sdfuigsdfiugy sdif" />
+		    
+		    <TextView
+		        android:id="@+id/linkBtn"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:paddingLeft="15dp"
+		        android:paddingRight="15dp"
+		        android:paddingBottom="15dp"
+		        android:layout_gravity="right"
+		        android:drawableLeft="@drawable/icon_link"
+		        android:drawablePadding="5dp"
+		        android:gravity="center_vertical"
+		        android:textColor="#006dff"
+		        android:textSize="14sp"
+		        android:text="@string/open_link" />
+    
+    	</LinearLayout>
+    
+    </ScrollView>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#a8a8a8" />
+        
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/white" />
+    
+	    <RelativeLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:background="#efefef"
+	        android:padding="5dp">
+	        
+	        <TextView 
+	            android:id="@+id/emailBtn"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentLeft="true"
+	            android:layout_centerVertical="true"
+	            android:drawableLeft="@drawable/icon_email"
+	            android:drawablePadding="10dp"
+	            android:layout_marginLeft="20dp"
+	            android:textSize="18sp"
+	            android:textColor="#00a1ff"
+	            android:gravity="center_vertical"
+	            android:text="@string/email_me" />
+	        
+	        <ImageView
+	            android:id="@+id/shareBtn"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerVertical="true"
+	            android:layout_toLeftOf="@+id/favouriteBtn"
+	            android:paddingTop="10dp"
+	            android:paddingBottom="10dp"
+	            android:paddingLeft="20dp"
+	            android:paddingRight="20dp"
+	            android:src="@drawable/icon_share" />
+	        
+	        <ImageView
+	            android:id="@+id/favouriteBtn"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerVertical="true"
+	            android:layout_alignParentRight="true"
+	            android:padding="10dp"
+	            android:src="@drawable/icon_favourite_off" />
+	        
+	    </RelativeLayout>
+    
+    </LinearLayout>
+
+</LinearLayout>
